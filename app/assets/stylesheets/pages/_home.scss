@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+.home-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("https://images.unsplash.com/photo-1464938769256-c01dc51fc983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80");
+  background-size: cover;
+}
+
+.home-table {
+  background-color: white;
+  border-radius: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+  position: absolute;
+  bottom: 120px;
+  left: 60px;
+}
